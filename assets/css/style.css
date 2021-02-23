@@ -3,22 +3,17 @@ body {
     color: #215732;
   }
   
-  #about-btn {
-    background-color: #044837;
-    color: white;
-    border: none;
-  }
-  
-  button {
+   .btn {
     display: block;
     margin: 0 auto;
+    background-color: #215732;
     color: white;
     font-size: 17px;
     padding: 10px 15px;
     border-radius: 6px;
   }
   
-  button:hover {
+  .btn:hover {
     opacity: 0.9;
     cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
