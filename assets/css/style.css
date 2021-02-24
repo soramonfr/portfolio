@@ -1,27 +1,40 @@
 body {
-  background-color: white;
-  color: black;
+  background-color: #f4f4f4;
+  color: #051f30;
+}
+
+nav {
+  margin-bottom: 2em;
 }
 
 .nav-brand {
   text-decoration: none;
-  color: #372e7f;
+  color: #a4a0d8;
   font-size: 2em;
 }
 
 nav i {
-  color: #372e7f;
+  color: #a4a0d8;
   font-size: 3em;
+}
+
+strong {
+  color: #4f518c;
+}
+
+.details {
+  margin-top: 3em;
 }
 
 .curriculum {
   display: block;
-  background-color: #372e7f;
+  background-color: #a4a0d8;
   color: white;
   font-size: 17px;
   padding: 10px 15px;
   border-radius: 6px;
   margin-top: 1em;
+  margin-bottom: 3em;
 }
 
 .curriculum:hover {
@@ -31,7 +44,8 @@ nav i {
 }
 
 h1 {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
+  font-family: "Permanent Marker", cursive;
 }
 
 h2 {
@@ -46,6 +60,6 @@ h2 {
 }
 
 .card:hover {
-  box-shadow: 3px 3px 8px #372e7f;
+  box-shadow: 3px 3px 8px #a4a0d8;
   transform: scale(1.05);
 }
