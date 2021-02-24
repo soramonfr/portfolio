@@ -1,32 +1,41 @@
 body {
-  background-color: #fafafa;
-  color: #215732;
+  background-color: white;
+  color: black;
 }
 
+.nav-brand {
+  text-decoration: none;
+  color: #372e7f;
+  font-size: 2em;
+}
 
 nav i {
-color: black;
-font-size: 3em;
+  color: #372e7f;
+  font-size: 3em;
 }
 
-.btn {
+.curriculum {
   display: block;
-  margin: 0 auto;
-  background-color: #215732;
+  background-color: #372e7f;
   color: white;
   font-size: 17px;
   padding: 10px 15px;
   border-radius: 6px;
+  margin-top: 1em;
 }
 
-.btn:hover {
+.curriculum:hover {
   opacity: 0.9;
   cursor: pointer;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-  margin-top: 20em;
+  margin-bottom: 2em;
+}
+
+h2 {
+  margin-bottom: 1em;
 }
 
 .card {
@@ -37,6 +46,6 @@ h1 {
 }
 
 .card:hover {
-  box-shadow: 3px 3px 8px #2a4c54;
+  box-shadow: 3px 3px 8px #372e7f;
   transform: scale(1.05);
 }
