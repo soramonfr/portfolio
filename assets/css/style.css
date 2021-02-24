@@ -1,37 +1,42 @@
 body {
-    background-color: #fafafa;
-    color: #215732;
-  }
-  
-   .btn {
-    display: block;
-    margin: 0 auto;
-    background-color: #215732;
-    color: white;
-    font-size: 17px;
-    padding: 10px 15px;
-    border-radius: 6px;
-  }
-  
-  .btn:hover {
-    opacity: 0.9;
-    cursor: pointer;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  h1 {
-    margin-top: 20em;
-  }
-  
-  .card {
-    width: 300px;
-    height: 250px;
-    margin-bottom: 2em;
-    transition : all 0.5s ease;
-  }
-  
-  .card:hover {
-    box-shadow: 3px 3px 8px #2a4c54;
-    transform: scale(1.05);
-  }
-  
+  background-color: #fafafa;
+  color: #215732;
+}
+
+
+nav i {
+color: black;
+font-size: 3em;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #215732;
+  color: white;
+  font-size: 17px;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-top: 20em;
+}
+
+.card {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 2em;
+  transition: all 0.5s ease;
+}
+
+.card:hover {
+  box-shadow: 3px 3px 8px #2a4c54;
+  transform: scale(1.05);
+}
