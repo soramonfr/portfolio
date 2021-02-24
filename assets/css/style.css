@@ -1,8 +1,10 @@
 body {
   background-color: #f4f4f4;
   color: #051f30;
+  font-family: "Roboto", sans-serif;
 }
 
+/* Navbar */
 nav {
   margin-bottom: 2em;
 }
@@ -16,6 +18,16 @@ nav {
 nav i {
   color: #a4a0d8;
   font-size: 3em;
+}
+
+/* About */
+h1 {
+  margin-bottom: 1.5em;
+  font-family: "Permanent Marker", cursive;
+}
+
+h2 {
+  margin-bottom: 1em;
 }
 
 strong {
@@ -43,15 +55,7 @@ strong {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
-  margin-bottom: 1.5em;
-  font-family: "Permanent Marker", cursive;
-}
-
-h2 {
-  margin-bottom: 1em;
-}
-
+/* Skills */
 .card {
   width: 300px;
   height: 250px;
